@@ -1,4 +1,4 @@
-import requests
+on import requests
 from telegram import Update, ForceReply
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
@@ -35,4 +35,5 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
+    pip install python-telegram-bot
     main()
